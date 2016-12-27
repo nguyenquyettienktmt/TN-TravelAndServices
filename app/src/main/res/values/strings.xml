@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">TN - Travel And Services</string>
+    <string name="title_activity_tab4_">Tab4_Activity</string>
+    <string name="key_map">AIzaSyD-Hsmmmx1rKz_aWD9laQs2YXnkygz5omk</string>
+    <string-array name="arrayType">
+        <item>Xem Kiểu Vệ Tinh</item>
+        <item>Xem Kiểu Phổ Thông</item>
+        <item>Xem Kiểu Địa Hình</item>
+        <item>Xem Kiểu Chi Tiết</item>
+        <item>Xem Kiểu None</item>
+    </string-array>
+</resources>

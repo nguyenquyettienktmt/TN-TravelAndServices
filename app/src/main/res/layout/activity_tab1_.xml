@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="16dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp"
+    tools:context="com.example.meobeou.TabHost.Tab1_Activity">
+
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:id="@+id/imageView"
+                android:src="@drawable/iii"
+                android:layout_alignTop="@+id/buttonVanHoaTN"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Văn Hóa Ẩm Thực &amp; Du Lịch"
+                android:id="@+id/buttonVanHoaTN"
+                android:layout_gravity="top"
+                android:layout_marginTop="31dp"
+                android:layout_alignParentTop="true"
+                android:layout_toRightOf="@+id/imageView"
+                android:layout_alignRight="@+id/button2"
+                android:layout_alignEnd="@+id/button2"
+                android:background="#9dfc96"
+                android:textColor="#fd5656" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Vào Bếp"
+        android:id="@+id/buttonVaoBep"
+        android:layout_gravity="top"
+        android:layout_marginTop="28dp"
+        android:layout_below="@+id/imageView"
+        android:layout_toRightOf="@+id/imageView"
+        android:layout_alignRight="@+id/button2"
+        android:layout_alignEnd="@+id/button2"
+        android:background="#9dfc96"
+        android:textColor="#fd5656" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Mẹo Vặt"
+        android:id="@+id/buttonMeoVat"
+        android:layout_gravity="top"
+        android:layout_marginTop="36dp"
+        android:layout_below="@+id/buttonVaoBep"
+        android:layout_alignLeft="@+id/buttonVaoBep"
+        android:layout_alignStart="@+id/buttonVaoBep"
+        android:layout_alignRight="@+id/button2"
+        android:layout_alignEnd="@+id/button2"
+        android:background="#9dfc96"
+        android:textColor="#fd5656" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sức Khỏe"
+        android:id="@+id/buttonSucKhoe"
+        android:layout_gravity="top"
+        android:layout_marginTop="38dp"
+        android:layout_below="@+id/buttonMeoVat"
+        android:layout_alignLeft="@+id/buttonMeoVat"
+        android:layout_alignStart="@+id/buttonMeoVat"
+        android:layout_alignRight="@+id/buttonMeoVat"
+        android:layout_alignEnd="@+id/buttonMeoVat"
+        android:background="#9dfc96"
+        android:textColor="#fd5656" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/imageView2"
+        android:src="@drawable/iii"
+        android:layout_above="@+id/buttonMeoVat"
+        android:layout_toLeftOf="@+id/buttonVaoBep"
+        android:layout_toStartOf="@+id/buttonVaoBep" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:id="@+id/imageView3"
+        android:src="@drawable/iii"
+        android:layout_above="@+id/buttonSucKhoe"
+        android:layout_toLeftOf="@+id/buttonMeoVat"
+        android:layout_toStartOf="@+id/buttonMeoVat" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Thời Trang"
+        android:id="@+id/buttonThoiTrang"
+        android:layout_gravity="top"
+        android:layout_marginTop="38dp"
+        android:layout_below="@+id/buttonSucKhoe"
+        android:layout_alignLeft="@+id/buttonSucKhoe"
+        android:layout_alignStart="@+id/buttonSucKhoe"
+        android:layout_alignRight="@+id/button2"
+        android:layout_alignEnd="@+id/button2"
+        android:background="#9dfc96"
+        android:allowUndo="false"
+        android:textColor="#fd5656" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:id="@+id/imageView4"
+        android:src="@drawable/iii"
+        android:layout_alignTop="@+id/buttonSucKhoe"
+        android:layout_toLeftOf="@+id/buttonSucKhoe"
+        android:layout_toStartOf="@+id/buttonSucKhoe" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:id="@+id/imageView5"
+        android:src="@drawable/iii"
+        android:layout_alignTop="@+id/buttonThoiTrang"
+        android:layout_toLeftOf="@+id/buttonThoiTrang"
+        android:layout_toStartOf="@+id/buttonThoiTrang" />
+
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="0dp"
+        android:text="New Button"
+        android:id="@+id/button2"
+        android:layout_toRightOf="@+id/imageView"
+        android:layout_above="@+id/buttonVanHoaTN" />
+
+
+</RelativeLayout>

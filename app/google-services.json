@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "68581128119",
+    "firebase_url": "https://tn-travelandservices-43086.firebaseio.com",
+    "project_id": "tn-travelandservices-43086",
+    "storage_bucket": "tn-travelandservices-43086.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:68581128119:android:8072f40609ad417d",
+        "android_client_info": {
+          "package_name": "com.example.meobeou.tn_travelandservices"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "68581128119-get5gohsge60s27fbc1nigoo3lv5nmkv.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.meobeou.tn_travelandservices",
+            "certificate_hash": "E0A2E1C1FDC8CC980B81AABC8ECA24BC097247CF"
+          }
+        },
+        {
+          "client_id": "68581128119-41josvhulo28gjmsvksf262bofjb7g8r.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD8bNYpf-SsL0BjvuJ0O2A7L40iNtu0rw8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "68581128119-41josvhulo28gjmsvksf262bofjb7g8r.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
